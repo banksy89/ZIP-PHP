@@ -16,6 +16,8 @@
   <li>Overwrite - Set this to TRUE or FALSE depending if you want to overwrite an existing archive or not.</li>
 </ol>
 
+<p>I provided a /Test directory with some files, which is to demonstrate a folder location - within zip.php there is an example of the function call. Download this exactly, and it should work!</p>
+
 <p>So that's it, you can choose to ignore specific files and just provide a directory to with files in the compress. Quite simple
 to extend this way and add functionality, but this is the simplest of forms to actually create the ZIP file. </p>
 <p>The function returns a BOOLEAN so you can do a condition depending on the call back TRUE/FALSE.</p>
